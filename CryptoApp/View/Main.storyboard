@@ -74,7 +74,7 @@
                     <connections>
                         <outlet property="btnSelectCoin" destination="tgF-yb-PcI" id="u2O-Tc-EEo"/>
                         <outlet property="tableView" destination="84Q-Xa-SDN" id="0kg-xX-rU9"/>
-                        <segue destination="PFB-bd-VTx" kind="show" id="GIJ-jo-Fqg"/>
+                        <segue destination="PFB-bd-VTx" kind="show" identifier="toDetail" id="GIJ-jo-Fqg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
