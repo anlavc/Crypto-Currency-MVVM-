@@ -1,4 +1,4 @@
-###  Coin Currecy App
+###  Coin Currency App
 - Generic Network Layer
 - MVVM Design Pattern
 - Create Model
