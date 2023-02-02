@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EE43677329894FB000EFF4A9 /* DropListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43677229894FB000EFF4A9 /* DropListCell.swift */; };
-		EE4A7BDC2986AE7B00A96A9C /* StringFormatter + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A7BDB2986AE7B00A96A9C /* StringFormatter + Ext.swift */; };
 		EE4A7BE02986E9AC00A96A9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A7BDF2986E9AC00A96A9C /* Constants.swift */; };
 		EE4A7BE42986F07400A96A9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A7BE32986F07400A96A9C /* DetailViewController.swift */; };
 		EE7E8E4A2985AD8C00960088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E8E492985AD8C00960088 /* AppDelegate.swift */; };
@@ -23,14 +22,14 @@
 		EE7E8E762985ADC200960088 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E8E6C2985ADC200960088 /* Article.swift */; };
 		EE7E8E772985ADC200960088 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E8E6E2985ADC200960088 /* CoinViewModel.swift */; };
 		EE7E8E7E2985B89E00960088 /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = EE7E8E7D2985B89E00960088 /* SDWebImageSVGCoder */; };
-		EE818FB6298BB53E009F7FB0 /* StringHexFormatter + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE818FB5298BB53E009F7FB0 /* StringHexFormatter + Ext.swift */; };
+		EE818FBA298BC5F7009F7FB0 /* ImageView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE818FB7298BC5F7009F7FB0 /* ImageView + Ext.swift */; };
+		EE818FBB298BC5F7009F7FB0 /* StringFormatter + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE818FB8298BC5F7009F7FB0 /* StringFormatter + Ext.swift */; };
+		EE818FBC298BC5F7009F7FB0 /* StringHexFormatter + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE818FB9298BC5F7009F7FB0 /* StringHexFormatter + Ext.swift */; };
 		EEA1F7CC29884B08001277D8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA1F7CB29884B08001277D8 /* WebViewController.swift */; };
-		EEBCBDE3298AE5A50098BB52 /* ImageView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBCBDE2298AE5A50098BB52 /* ImageView + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE43677229894FB000EFF4A9 /* DropListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropListCell.swift; sourceTree = "<group>"; };
-		EE4A7BDB2986AE7B00A96A9C /* StringFormatter + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringFormatter + Ext.swift"; sourceTree = "<group>"; };
 		EE4A7BDF2986E9AC00A96A9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE4A7BE32986F07400A96A9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EE7E8E462985AD8C00960088 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,9 +45,10 @@
 		EE7E8E6A2985ADC100960088 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		EE7E8E6C2985ADC200960088 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		EE7E8E6E2985ADC200960088 /* CoinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
-		EE818FB5298BB53E009F7FB0 /* StringHexFormatter + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringHexFormatter + Ext.swift"; sourceTree = "<group>"; };
+		EE818FB7298BC5F7009F7FB0 /* ImageView + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView + Ext.swift"; sourceTree = "<group>"; };
+		EE818FB8298BC5F7009F7FB0 /* StringFormatter + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringFormatter + Ext.swift"; sourceTree = "<group>"; };
+		EE818FB9298BC5F7009F7FB0 /* StringHexFormatter + Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringHexFormatter + Ext.swift"; sourceTree = "<group>"; };
 		EEA1F7CB29884B08001277D8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		EEBCBDE2298AE5A50098BB52 /* ImageView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 		EE4A7BDA2986AE5A00A96A9C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				EE4A7BDB2986AE7B00A96A9C /* StringFormatter + Ext.swift */,
-				EEBCBDE2298AE5A50098BB52 /* ImageView + Ext.swift */,
-				EE818FB5298BB53E009F7FB0 /* StringHexFormatter + Ext.swift */,
+				EE818FB7298BC5F7009F7FB0 /* ImageView + Ext.swift */,
+				EE818FB8298BC5F7009F7FB0 /* StringFormatter + Ext.swift */,
+				EE818FB9298BC5F7009F7FB0 /* StringHexFormatter + Ext.swift */,
 			);
 			name = Extensions;
 			path = "eXTENSİONS";
@@ -274,6 +274,7 @@
 			files = (
 				EE4A7BE42986F07400A96A9C /* DetailViewController.swift in Sources */,
 				EE7E8E732985ADC200960088 /* ViewController.swift in Sources */,
+				EE818FBC298BC5F7009F7FB0 /* StringHexFormatter + Ext.swift in Sources */,
 				EE4A7BE02986E9AC00A96A9C /* Constants.swift in Sources */,
 				EE43677329894FB000EFF4A9 /* DropListCell.swift in Sources */,
 				EE7E8E752985ADC200960088 /* Webservice.swift in Sources */,
@@ -281,11 +282,10 @@
 				EE7E8E762985ADC200960088 /* Article.swift in Sources */,
 				EEA1F7CC29884B08001277D8 /* WebViewController.swift in Sources */,
 				EE7E8E4A2985AD8C00960088 /* AppDelegate.swift in Sources */,
+				EE818FBA298BC5F7009F7FB0 /* ImageView + Ext.swift in Sources */,
 				EE7E8E772985ADC200960088 /* CoinViewModel.swift in Sources */,
 				EE7E8E4C2985AD8C00960088 /* SceneDelegate.swift in Sources */,
-				EE818FB6298BB53E009F7FB0 /* StringHexFormatter + Ext.swift in Sources */,
-				EE4A7BDC2986AE7B00A96A9C /* StringFormatter + Ext.swift in Sources */,
-				EEBCBDE3298AE5A50098BB52 /* ImageView + Ext.swift in Sources */,
+				EE818FBB298BC5F7009F7FB0 /* StringFormatter + Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
