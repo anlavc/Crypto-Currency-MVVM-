@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="96" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="CryptoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1N7-SZ-DeU">
+                        <rect key="frame" x="5" y="10" width="350" height="70"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="personalhotspot.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LBT-Jg-qKu">
+                                <rect key="frame" x="5" y="6" width="40" height="58.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="vrl-7e-bcU"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="6Gl-cw-R7h">
+                                <rect key="frame" x="53" y="8.3333333333333321" width="292" height="53.666666666666671"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Uf-0e-Oz6">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="26.333333333333332"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-vh-aYD">
+                                                <rect key="frame" x="0.0" y="0.0" width="32.333333333333336" height="26.333333333333332"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2.232.54" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j21-zn-TQo">
+                                                <rect key="frame" x="191.33333333333334" y="0.0" width="100.66666666666666" height="26.333333333333332"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="dJq-aE-EuZ">
+                                        <rect key="frame" x="0.0" y="33.333333333333329" width="292" height="20.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bun-AZ-PvL">
+                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="1l7-Ml-Yae">
+                                                <rect key="frame" x="163.66666666666663" y="0.0" width="128.33333333333337" height="20.333333333333332"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+0.02+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKe-Eb-F68">
+                                                        <rect key="frame" x="0.0" y="0.0" width="49" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(+$0.0243)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVj-eY-sUM">
+                                                        <rect key="frame" x="50.000000000000021" y="0.0" width="78.333333333333314" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LBT-Jg-qKu" firstAttribute="leading" secondItem="1N7-SZ-DeU" secondAttribute="leading" constant="5" id="28P-bq-kDL"/>
+                            <constraint firstAttribute="trailing" secondItem="6Gl-cw-R7h" secondAttribute="trailing" constant="5" id="3gG-qt-BEz"/>
+                            <constraint firstItem="LBT-Jg-qKu" firstAttribute="top" secondItem="1N7-SZ-DeU" secondAttribute="top" constant="5" id="FhA-Ps-EkW"/>
+                            <constraint firstItem="6Gl-cw-R7h" firstAttribute="centerY" secondItem="1N7-SZ-DeU" secondAttribute="centerY" id="HzJ-qb-yhb"/>
+                            <constraint firstItem="LBT-Jg-qKu" firstAttribute="centerY" secondItem="1N7-SZ-DeU" secondAttribute="centerY" id="bhu-Yh-I40"/>
+                            <constraint firstItem="6Gl-cw-R7h" firstAttribute="leading" secondItem="LBT-Jg-qKu" secondAttribute="trailing" constant="8" id="ncV-Kd-cdD"/>
+                            <constraint firstAttribute="height" constant="70" id="nfm-34-E5z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1N7-SZ-DeU" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9d6-qN-y7H"/>
+                    <constraint firstAttribute="trailing" secondItem="1N7-SZ-DeU" secondAttribute="trailing" constant="5" id="9e3-ch-7Yd"/>
+                    <constraint firstItem="1N7-SZ-DeU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="NYe-JU-1dr"/>
+                    <constraint firstItem="1N7-SZ-DeU" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XmN-Gu-Lnr"/>
+                    <constraint firstItem="1N7-SZ-DeU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="jdM-UL-i1h"/>
+                    <constraint firstAttribute="bottom" secondItem="1N7-SZ-DeU" secondAttribute="bottom" constant="10" id="vIs-7v-rDx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cellView" destination="1N7-SZ-DeU" id="ARb-y5-cmv"/>
+                <outlet property="changeLabel" destination="OKe-Eb-F68" id="YfO-Xw-zSy"/>
+                <outlet property="cryptoName" destination="bun-AZ-PvL" id="QPp-lK-Ymh"/>
+                <outlet property="cryptoShortName" destination="zkS-vh-aYD" id="1Tx-Xb-2C0"/>
+                <outlet property="currencyIcon" destination="LBT-Jg-qKu" id="SGl-r9-3F7"/>
+                <outlet property="label2" destination="mVj-eY-sUM" id="nua-3p-HNf"/>
+                <outlet property="price" destination="j21-zn-TQo" id="FJk-WC-ukr"/>
+            </connections>
+            <point key="canvasLocation" x="24.427480916030532" y="38.028169014084511"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="personalhotspot.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
