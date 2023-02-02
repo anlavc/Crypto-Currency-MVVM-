@@ -6,7 +6,7 @@
 - Programatic DropDown List in TableView
 - Use Extensions
 - Importance and usage of DispatchQueue
--  Data shorting
+-  Data sorting
 
 
 

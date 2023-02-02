@@ -7,28 +7,6 @@
 
 import Foundation
 
-//class Webservice {
-//
-//    func getData(url: URL, completion: @escaping ([Coin]?) -> () ) {
-//        URLSession.shared.dataTask(with: url) { data, response, error in
-//            if let error = error {
-//                print(error.localizedDescription)
-//
-//                completion(nil)
-//            } else if let data = data {
-//                let coinList = try? JSONDecoder().decode(Currencies.self, from: data)
-//
-//                if let coinList = coinList {
-//                    completion(coinList.data?.coins)
-//                }
-//            }
-//        }.resume()
-//
-//    }
-//
-//}
-import UIKit
-
 protocol APICallerProtocol {
     func fetch<T: Codable>(response: T.Type, with path: APICall, completion: @escaping(Result<T, Error>) -> Void)
 }
